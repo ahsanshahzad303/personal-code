@@ -7,3 +7,8 @@ def factorial(n):
         return n * factorial(n - 1)
 
 # Main program to input a number and print its factorial
+
+if __name__ == "__main__":
+    num = int(input("Enter a number: "))
+    result = factorial(num)
+    print(f"The factorial of {num} is {result}.")
